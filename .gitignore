@@ -1,0 +1,11 @@
+# Hugo generated
+public/
+.hugo_build.lock
+
+# Backup files
+*.bak
+*~
+\#*\#
+
+# Demo content
+content-demo/

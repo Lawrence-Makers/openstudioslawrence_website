@@ -1,0 +1,133 @@
+baseURL: "https://openstudioslawrence.org"
+languageCode: "en-us"
+title: "Open Studios Lawrence"
+theme: hugo-profile
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+enableRobotsTXT: true
+pagination:
+  pagerSize: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+Menus:
+  main:
+    - identifier: howitworks
+      name: How It Works
+      title: How Open Studios Works
+      url: /how-it-works
+      weight: 1
+    - identifier: landlords
+      name: For Landlords
+      title: Information for Building Owners
+      url: /landlords
+      weight: 2
+    - identifier: artists
+      name: For Artists
+      title: Information for Artists
+      url: /artists
+      weight: 3
+    - identifier: about
+      name: About Us
+      title: About Open Studios Lawrence
+      url: /about
+      weight: 4
+    - identifier: contact
+      name: Contact
+      title: Contact & FAQ
+      url: /contact-faq
+      weight: 5
+params:
+  title: "Open Studios Lawrence" 
+  description: "Animate your storefront. Support local artists.Build vibrant communities."
+  favicon: "/OS-blue.svg"
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+  theme:
+    disableThemeToggle: false
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+  navbar:
+    align: ms-auto
+    brandName: "Open Studios Lawrence"
+    disableSearch: false
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: true
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
+      disableContact: false
+  hero:
+    enable: true
+    intro: "Welcome to"
+    title: "Open Studios Lawrence"
+    subtitle: "We pair empty storefronts with practicing local artists"
+    content: " Artists benefit from a free studio for several months, and the building owner can market an animated, more attractive space that’s easier to rent!"
+    image: /images/hero.svg
+    bottomImage:
+      enable: false
+    button:
+      enable: true
+      name: "Learn More"
+      url: "/how-it-works"
+      download: false
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-facebook
+          url: https://facebook.com/openstudioslawrence
+        - icon: fab fa-instagram
+          url: https://instagram.com/openstudioslawrence
+  contact:
+    enable: true
+    content: "Questions? Whether you're a landlord with space or an artist looking for a studio, we'd love to hear from you!"
+    btnName: Contact Us
+    formspree:
+      enable: true
+      formId: xlggjzpd
+      emailCaption: "Your email"
+      messageCaption: "Your message"
+    # btnLink: /contact-faq/
+  footer:
+    recentPosts:
+      enable: false
+    socialNetworks:
+      facebook: https://facebook.com/openstudioslawrence
+      instagram: https://instagram.com/openstudioslawrence
+  listPages:
+    disableFeaturedImage: false
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: false
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
