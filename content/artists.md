@@ -3,168 +3,101 @@ title: "Artists"
 date: 2026-01-17T11:04:12-06:00
 draft: false
 tags: []
----
-
-
-# For Artists: Free Studio Space in Lawrence
-
-Your rent is your biggest obstacle. Open Studios removes it. Get free studio space in the heart of Lawrence, supported by a professional program backed by the University of Kansas and Lawrence Arts Center.
+toc: false
+sidebar_image: /images/2018-08-10_17-44-12_UTC.jpg
+#sidebar_caption: "An Open Studios artist at work"
 
 ---
 
-## The Artist Value Proposition
 
-Studio rent is a barrier. Open Studios removes it.
+# Show and Sell Your Work
 
-**What you invest:** Your time and artistic practice. Commitment to community engagement.
-
-**What you get:**
-- **Free studio space** — No rent for 3-4 months
-- **Prime location** — Downtown Lawrence storefronts with foot traffic and visibility
-- **Community support** — Promotion, open studio coordination, connection to arts community
-- **Professional structure** — Vetted by a committee of artists and faculty; legitimate, respected program
-- **Networking** — Direct connection to Lawrence Arts Center, KU Art Department, fellow artists
-- **Audience** — Regular foot traffic during open hours; opportunity to build collectors and community
-- **Curated community** — Working alongside other serious artists in the program
-
-**Commitment:** Minimum 10 hours/week onsite; active artistic practice; community engagement; participation in monthly open studio events.
+Lawrence needs to experience your work but studio rent can be an obstacle. **Open Studios Lawrence** offers free rent to artists so you may share your work with the community.
 
 ---
 
-## Who We're Looking For
+## Do You Qualify?
 
-Open Studios seeks artists with:
+Any artist with an active artistic practice can qualify, regardless of medium (sculpture, painting, photography, textile, performance, mixed media, graphic design, video, etc.) We'll need to confirm that you will be responsible and maintain the space. To the extent possible we ask that you engage with the public, support local businesses, and participate in local events such as *Final Friday*. We'll confirm with you that you understand this is a temporary residency and you will transition when the space is rented.
 
-- **Active artistic practice** — You produce work regularly, in any medium (sculpture, painting, photography, textile, performance, mixed media, graphic design, video, etc.)
-- **Professional approach** — You maintain your space, meet deadlines, communicate clearly
-- **Community commitment** — You're willing to engage with the public, support local businesses, participate in events
-- **Flexibility** — You understand the residency is temporary (typically 3-4 months); you're prepared to transition when space is rented
-- **Minimum 4-month commitment** where possible — We aim for stable, productive residencies
 
-**We do NOT require:**
-- Professional credentials or degrees
-- Commercial success or established reputation
-- Particular artistic medium or style
-- Previous solo exhibitions
+We do **not** require professional credentials or degrees, commercial success, an established reputation, or any particular artistic medium or style. If you have a serious practice and a genuine commitment to community engagement we'd love to hear from you.
 
-We're interested in serious practice and genuine community engagement.
 
 ---
 
-## How the Residency Works
+## Summary of the Process
 
-**Application & Selection**
-1. You submit an application with:
-   - Images of recent work (5-10 pieces)
-   - Short artist statement (200-300 words)
-   - Description of your practice (medium, frequency, goals)
-   - Why you're interested in Open Studios
-   - Any community engagement experience
+**1. Tell us about yourself**: Fill out the contact form below.
 
-2. A local selection committee reviews applications:
-   - Practicing artists from Lawrence
-   - Faculty from Lawrence Arts Center
-   - Faculty from University of Kansas Art Department
+**2. Open Studios Lawrence will vet and match**:
+We'll review your submission through our local selection committee. During this process you may also be asked to meet a landlord to ensure a good fit.
 
-3. Finalists are interviewed by committee members and potential landlords
-
-4. Selected artists are matched with available spaces
-
-**Before You Move In**
-- Sign a straightforward artist agreement (outlines terms, expectations, responsibilities)
-- Coordinate studio setup with Open Studios staff
-- Attend opening event and community introduction
-
-**During Your Residency (3-4 months)**
-
-Your responsibilities:
-- Maintain active studio practice (minimum 10 hours/week onsite)
-- Keep space clean and professionally presented
-- Host public open hours (typically last Friday of month, 6-9 PM, minimum)
-- Welcome visitors and engage with the community
-- Support local businesses (cafes, restaurants, shops, bars in the area)
-- Participate in community events when possible
-- Use social media to promote the space and Open Studios (we provide graphics)
-- Maintain professional conduct
-
-Open Studios provides:
-- Space (rent-free)
-- Liability insurance
-- Utilities (if required)
-- Promotion and marketing
-- Monthly open studio event coordination
-- Ongoing support and community connection
-- Networking opportunities
-
-**Community Engagement**
-This isn't a hidden studio. You're part of the neighborhood. We expect you to:
-- Welcome public visitors and engage with them
-- Visit neighboring businesses; support the local community
-- Participate in Final Friday or other community art events
-- Be visible and present as an active community member
-
-**When the Residency Ends**
-
-If your space gets rented (success!):
-- You have 30 days to vacate
-- Open Studios helps you find your next opportunity—either another Open Studios space (if available) or resources for independent rental
-- You remain part of the Open Studios community
-
-If your space remains available:
-- You may be invited to extend or transition to a new cohort
-
-Either way, you've had rent-free studio space, community support, and time to focus on your practice.
+**3. Open Studios Lawrence Takes Care of Everything Else**:
+We will handle all contracts and legal agreements, liability insurance, and cost of utilities if required. We'll promote you in
+ your space through social media and we'll facilitate monthly public events.
+ 
+ ***[Learn More](/how-it-works)***
 
 ---
 
-## What Artists Have Said
+## Ready to Apply?
 
-"People are interested in what it is – we have people looking in the window, and when they see the artwork they give us a thumbs-up. It's a chance for those kids to come downtown. It makes downtown more inclusive."
+<style>
+.contact-form .form-control {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border-radius: .7rem;
+    border: 1px solid var(--text-secondary-color);
+    box-shadow: 0px 8px 56px rgb(15 80 100 / 5%);
+}
+.contact-form .btn {
+    border-radius: .5rem;
+    border-color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+.contact-form .btn:hover {
+    opacity: .7;
+}
+.contact-form label {
+    margin-bottom: 0.0rem;
+    color: var(--text-secondary-color);
+    font-size: 0.9rem;
+}
+</style>
 
-— Ella Baccus, Open Studios artist, Wichita (working on public art beautification project with youth)
+<div class="contact-form">
+    <div class="row justify-content-center">
+        <form action="https://formspree.io/f/xlggjzpd" method="POST" class="col-md-7">
+            <div class="form-group pt-3">
+			    <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" name="name" required placeholder="Name">
+            </div>
+            <div class="form-group pt-3">
+				<label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" required placeholder="Email">
+            </div>
+            <div class="form-group pt-3">
+				<label for="link" class="form-label">Artwork Link</label>
+                <input type="link" class="form-control" name="link" required placeholder="Website, Instagram link, etc. which best shows your recent work">
+            </div>
+            <div class="form-group pt-3">
+				<label for="art_statement" class="form-label">Artist Statement</label>
+                <textarea class="form-control" name="art_statement" required placeholder="Artist Statement and/or Description of your Practice" rows="5"></textarea>
+            <div class="form-group pt-3">
+				<label for="comment" class="form-label">Comments</label>
+                <textarea class="form-control" name="comment" placeholder="Any other Comments?" rows="5"></textarea>
+            </div>
+            <div class="form-group text-center pt-3">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+            <input type="hidden" name="_form_type" value="artist">
+        </form>
+    </div>
+</div>
 
----
 
-## Why Open Studios?
+*Applications are reviewed on a rolling basis.*
 
-**It's real.** This isn't a residency or grant program with abstract goals. It's concrete: free space, community presence, audience engagement.
 
-**It's professional.** Selected by a committee of artists and faculty. Not random. Not charity. Merit-based.
 
-**It's proven.** Open Studios has successfully supported 100+ artists across 10 locations in Wichita. The model works.
-
-**It's community-rooted.** Lawrence Arts Center and KU Art Department are core partners. This program is embedded in our local arts ecosystem.
-
-**It's temporary by design.** You're not committing to a permanent situation. It's a focused residency with clear terms.
-
-**It removes barriers.** Rent is the biggest obstacle to artistic practice. Open Studios removes it, giving you time and resources to focus on your work.
-
----
-
-## Application Process
-
-**Ready to apply?**
-
-1. Gather your materials:
-   - Images of recent work (5-10 pieces, 2-5 MB total)
-   - Artist statement (200-300 words)
-   - Description of your practice
-   - Why Open Studios
-
-2. [Submit your application](#contact)
-
-3. We review and contact selected finalists
-
-4. Interview with selection committee
-
-5. Landlord introduction and space confirmation
-
-6. Move in and begin residency
-
-**Timeline:** Applications are reviewed on a rolling basis. Selection typically takes 4-6 weeks.
-
----
-
-## Questions?
-
-[Learn how the program works](#how-it-works) | [Meet the team](#about) | [Apply Now](#contact)

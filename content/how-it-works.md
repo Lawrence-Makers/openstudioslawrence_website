@@ -3,119 +3,123 @@ title: "How It Works"
 date: 2026-01-17T11:04:12-06:00
 draft: false
 tags: []
+toc: false
+sidebar_image: /images/2019-01-10_03-30-40_UTC.jpg
+#sidebar_caption: "An Open Studios artist at work"
+
 ---
 
 
 # How Open Studios Works
 
-Open Studios connects landlords with vacant storefronts to practicing local artists who need studio space. It's a straightforward arrangement built on mutual benefit and shared community goals.
+**Open Studios Lawrence** connects landlords in Lawrence, Kansas with vacant storefronts with practicing local artists who need studio space. The program is built on mutual benefit and shared community goals.
 
 ---
 
-## The Three-Part Deal
+## A Collaboration Between Landlords and Artists
 
 ### Landlords Give Space
 
-You donate rent-free use of your vacant storefront for a set period (typically 3-4 months). Open Studios and the artist handle the rest.
+Landlords offer rent-free use of their vacant storefront for a set period (typically 3-4 months). Open Studios Lawrence and the artist take care of the rest.
 
-**What you get:**
-- Liability insurance (covered by Open Studios)
-- Utilities (covered by Open Studios, if required)
+**Benefits to Landlords:**
+
+- Liability insurance provided by Open Studios Lawrence
+- Utility expenses, if required, covered by Open Studios Lawrence
 - An animated, attractive storefront that draws foot traffic
 - Social media promotion and community visibility
 - Demonstration of your space's potential to future tenants
 - Community goodwill and civic recognition
-- Zero financial obligation
+- No financial obligation
 
-**What's expected:**
+**Expectations from Landlords:**
 - The space remains available for the artist's active studio practice
-- You retain the right to terminate the arrangement if the space is rented (with 30-day notice)
+- Landlord may terminate the arrangement if the space is rented given agreed-upon notice (negotiable, typically 30-days)
 - Standard landlord-tenant maintenance expectations
-
+  
 ---
 
 ### Artists Get Studios
 
-Selected artists receive free studio space for a residency period (typically 3-4 months). This is real studio space for active artistic practice—not a gallery, not a performance venue, but a working creative space.
+Selected artists or artist organizations receive free studio space for a residency period (typically 3-4 months). This is real studio space for active artistic practice.
 
-**What you get:**
-- Free rent (the biggest barrier for many artists)
+**Benefits to Artists:**
+- Free rent
 - Community visibility and foot traffic
 - Networking with fellow artists and the Lawrence arts community
-- Active support from Open Studios staff and the community
+- Support from Open Studios Lawrence and the community
 - Opportunity to engage with the public and build an audience
-- Eventual opportunity to transition into paid rental space
+- Opportunity to build relationships with landlords and transition into paid rental space
 
-**What's expected:**
-- Maintain active artistic practice (minimum 10 hours/week onsite)
+**Expectations from Artists:**
+- Maintain active artistic practice in the space (at least 10 hours/week onsite)
 - Keep the space clean and professional
-- Welcome public visitors during designated open hours (typically the last Friday of each month, 6-9 PM)
+- Welcome public visitors during designated open hours (typically Final Fridays, 6-9 PM)
 - Participate in community engagement (support local businesses, attend community events)
-- Promote Open Studios and the space via social media (with credit)
-- Understand the arrangement is temporary: if the space is rented, you have 30 days to vacate
-- (Minimum 4-month commitment expected when possible)
+- Promote Open Studios Lawrence and the space via social media (with credit)
+- Understand the arrangement is temporary: if the space is rented, you will have typically 30 days to vacate.
 
 ---
 
-### Open Studios Provides Infrastructure
+### Open Studios Lawrence Provides Infrastructure
 
-Open Studios (the organization) acts as curator, administrator, and community connector.
+  <div class="row">
+      <div class="col-md-6">
+                <img src="/images/2019-07-04_02-30-04_UTC.jpg" class="img-fluid" alt="Description">
+      </div>
+      <div class="col-md-6">
 
-**We handle:**
-- Artist selection and vetting
+Open Studios Lawrence functions as matchmaker, curator, administrator, and community connector.
+
+**Open Studios Lawrence Responsibilities:**
+- Artist selection and vetting through local selection committee
 - Liability insurance for all spaces
 - Utilities (if required by the landlord)
 - Contracts and legal agreements
 - Community promotion and outreach
 - Social media management
-- Event coordination for open studio events
-- Matching and support for both parties
+- Event coordination for Open Studio Lawrence events
+
+</div>
+</div>
 
 ---
 
-## The Timeline
+## Timeline
 
 **Artist Residency Cycle**
 
 1. **Application Period** (ongoing)
-   - Artists apply through our website
-   - Landlords with available spaces contact Open Studios
-
-2. **Selection** (4-6 weeks)
-   - Local selection committee reviews artist applications
-   - Committee includes practicing artists, Lawrence Arts Center staff, and KU Art Department faculty
-   - Landlord interviews finalists
-   - Artist-landlord match is confirmed
-
-3. **Setup** (2 weeks)
+   - Artists apply on this website
+   - Landlords with available spaces contact Open Studios Lawrence through this website
+2. **Selection** (ongoing)
+   - Local selection committee of practicing artists, Lawrence Arts Center staff, and KU Art Department faculty review artist applications periodically
+   - Landlord optionally interviews finalists
+   - Open Studios Lawrence confirms artist-landlord match
+3. **Setup** (typically 2 weeks)
    - Artist moves into space
-   - Open Studios organizes the studio and promotes launch
-   - Community invited to opening event
-
-4. **Active Residency** (3-4 months, typically one cohort)
+   - Open Studios Lawrence organizes the studio and promotes launch
+   - Lawrence community invited to opening event
+4. **Active Residency** (typically 3-4 months)
    - Artist maintains studio practice
-   - Monthly open hours (final Friday of month, 6-9 PM minimum)
+   - Monthly open hours (Final Fridays)
    - Community engagement and foot traffic
    - Open Studios provides support and promotion
-
 5. **Transition**
-   - If space is rented: Artist has 30 days to vacate; Open Studios helps find alternative space or next opportunity
-   - If space remains vacant: Residency may extend or roll into next cohort
-   - Artist transitions to next opportunity (another Open Studios space, independent rental, or other projects)
+   - If space is rented: Artist will vacate within agreed-upon time (typically 30 days)
+   - If space remains vacant: Residency may be extended as agreed upon by landlord, artist, and Open Studios Lawrence
 
 ---
 
-## What Makes This Different?
+## Why This Works
 
-**It's not a charity.** This is a structured program with real benefits for everyone. Landlords get animated spaces. Artists get studio access. Communities get vibrant neighborhoods.
+**We are not a charity.** This is a structured program with benefits for everyone. Landlords get animated spaces. Artists get studio access. Lawrence gets activated areas.
 
-**It's temporary by design.** That's not a flaw—it's a feature. When a space gets rented, that's success. The artist moves on; the landlord wins; the neighborhood is better for it.
+**We offer temporary space by design.** When a space gets rented, we've succeeded. The artist moves on, the landlord wins, and the community is better for it.
 
-**It's curated.** This isn't random. A selection committee of artists and faculty ensures quality artistic practice and community fit.
+**Everything is curated.** Open Studios Lawrence's selection committee of artists and faculty ensures quality artistic practice and community fit.
 
-**It's community-rooted.** Open Studios Lawrence partners with Lawrence Arts Center and the University of Kansas Art Department. This isn't imported from outside; it's adapted for Lawrence by Lawrencians.
-
-**It works.** Wichita's Open Studios has served 100+ artists across 10 locations over more than a decade. The model is proven.
+**Our model has already succeeded.** Wichita's Open Studios has served more than 100 artists across 10 locations over more than a decade.
 
 ---
 
@@ -130,10 +134,10 @@ Both landlords and artists sign straightforward agreements that outline:
 - Termination conditions and notice periods
 - Use of photography and promotional materials
 
-All agreements are simple, clear, and designed to protect both parties while keeping the process frictionless.
+All agreements are designed to protect both parties while keeping the process as frictionless as possible.
 
 ---
 
 ## Questions?
 
-Still curious? Check out the [Landlord Information](#landlords) or [Artist Application](#artists) pages, or [contact us](#contact).
+Check out our [Landlord](/landlords) or [Artist](/artists) pages, or [contact us](/contact).

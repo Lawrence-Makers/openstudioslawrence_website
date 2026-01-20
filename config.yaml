@@ -25,24 +25,29 @@ Menus:
       url: /how-it-works
       weight: 1
     - identifier: landlords
-      name: For Landlords
+      name: Landlords
       title: Information for Building Owners
       url: /landlords
       weight: 2
     - identifier: artists
-      name: For Artists
+      name: Artists
       title: Information for Artists
       url: /artists
       weight: 3
     - identifier: about
-      name: About Us
+      name: About
       title: About Open Studios Lawrence
       url: /about
       weight: 4
     - identifier: contact
       name: Contact
-      title: Contact & FAQ
-      url: /contact-faq
+      title: Contact Us
+      url: /#contact
+      weight: 6
+    - identifier: FAQ
+      name: FAQ
+      title: Frequently Asked Questions
+      url: /faq
       weight: 5
 params:
   title: "Open Studios Lawrence" 
@@ -61,7 +66,7 @@ params:
   navbar:
     align: ms-auto
     brandName: "Open Studios Lawrence"
-    disableSearch: false
+    disableSearch: true
     stickyNavBar:
       enable: true
       showOnScrollUp: true
@@ -72,14 +77,15 @@ params:
       disableEducation: true
       disableProjects: true
       disableAchievements: true
-      disableContact: false
+      disableContact: true
   hero:
     enable: true
     intro: "Welcome to"
     title: "Open Studios Lawrence"
     subtitle: "We pair empty storefronts with practicing local artists"
-    content: " Artists benefit from a free studio for several months, and the building owner can market an animated, more attractive space that’s easier to rent!"
-    image: /images/hero.svg
+    content: " Artists benefit from a free studio for several months. Landlords gain an animated, more attractive space that’s easier to rent!"
+    # image: /images/hero.svg
+    image: /images/2020-01-28_16-50-31_UTC.jpg
     bottomImage:
       enable: false
     button:
@@ -100,7 +106,7 @@ params:
     btnName: Contact Us
     formspree:
       enable: true
-      formId: xlggjzpd
+      formId: xeeekpnk
       emailCaption: "Your email"
       messageCaption: "Your message"
     # btnLink: /contact-faq/
