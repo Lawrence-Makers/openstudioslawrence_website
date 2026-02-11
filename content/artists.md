@@ -5,14 +5,14 @@ draft: false
 tags: []
 toc: false
 sidebar_image: /images/2018-08-10_17-44-12_UTC.jpg
-#sidebar_caption: "An Open Studios artist at work"
+#sidebar_caption: "An OpenStudios artist at work"
 
 ---
 
 
 # Show and Sell Your Work
 
-Lawrence needs to experience your work but studio rent can be an obstacle. **Open Studios Lawrence** offers free rent to artists so you may share your work with the community.
+Lawrence needs to experience your work but studio rent can be an obstacle. **OpenStudios Lawrence** offers free rent to artists so you may share your work with the community.
 
 ---
 
@@ -30,10 +30,10 @@ We do **not** require professional credentials or degrees, commercial success, a
 
 **1. Tell us about yourself**: Fill out the contact form below.
 
-**2. Open Studios Lawrence will vet and match**:
+**2. OpenStudios Lawrence will vet and match**:
 We'll review your submission through our local selection committee. During this process you may also be asked to meet a landlord to ensure a good fit.
 
-**3. Open Studios Lawrence Takes Care of Everything Else**:
+**3. OpenStudios Lawrence takes care of everything else**:
 We will handle all contracts and legal agreements, liability insurance, and cost of utilities if required. We'll promote you in
  your space through social media and we'll facilitate monthly public events.
  

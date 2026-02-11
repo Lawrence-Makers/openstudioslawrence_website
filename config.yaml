@@ -1,6 +1,6 @@
 baseURL: "https://openstudioslawrence.org"
 languageCode: "en-us"
-title: "Open Studios Lawrence"
+title: "OpenStudios Lawrence"
 theme: hugo-profile
 outputs:
   home:
@@ -21,7 +21,7 @@ Menus:
   main:
     - identifier: howitworks
       name: How It Works
-      title: How Open Studios Works
+      title: How OpenStudios Works
       url: /how-it-works
       weight: 1
     - identifier: landlords
@@ -36,7 +36,7 @@ Menus:
       weight: 3
     - identifier: about
       name: About
-      title: About Open Studios Lawrence
+      title: About OpenStudios Lawrence
       url: /about
       weight: 4
     - identifier: contact
@@ -50,7 +50,7 @@ Menus:
       url: /faq
       weight: 5
 params:
-  title: "Open Studios Lawrence" 
+  title: "OpenStudios Lawrence" 
   description: "Animate your storefront. Support local artists.Build vibrant communities."
   favicon: "/OS-blue.svg"
   useBootstrapCDN: false
@@ -65,7 +65,7 @@ params:
     textAlign: left
   navbar:
     align: ms-auto
-    brandName: "Open Studios Lawrence"
+    brandName: "OpenStudios Lawrence"
     disableSearch: true
     stickyNavBar:
       enable: true
@@ -81,9 +81,9 @@ params:
   hero:
     enable: true
     intro: "Welcome to"
-    title: "Open Studios Lawrence"
-    subtitle: "We pair empty storefronts with practicing local artists"
-    content: " Artists benefit from a free studio for several months. Landlords gain an animated, more attractive space that’s easier to rent!"
+    title: "OpenStudios Lawrence"
+    subtitle: "We strengthen Lawrence's art culture by activating empty storefronts with local artists"
+    content: "Artists benefit from a free studio for several months. Landlords gain an animated, more attractive space that’s easier to rent. Together, we strengthen Lawrence's art culture!"
     # image: /images/hero.svg
     image: /images/2020-01-28_16-50-31_UTC.jpg
     bottomImage:

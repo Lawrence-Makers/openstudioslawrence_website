@@ -8,7 +8,7 @@ tags: []
 
 # Animate Your Storefront. Support Local Artists.
 
-Empty storefronts drain the vibrancy from any street. Open Studios fills those gaps with practicing local artists, creating animated, attractive spaces—at no cost to you.
+Empty storefronts drain the vibrancy from any street. OpenStudios fills those gaps with practicing local artists, creating animated, attractive spaces—at no cost to you.
 
 It's simple. Landlords donate rent-free space. Artists get free studios. Our community gets vibrant neighborhoods. Everybody wins.
 
@@ -24,11 +24,11 @@ It's simple. Landlords donate rent-free space. Artists get free studios. Our com
 
 ---
 
-## Why Open Studios?
+## Why OpenStudios?
 
-**Proven in Wichita.** Open Studios has successfully served over 100 artists across 10 locations in Wichita since its founding. The program has a decade-plus track record of activating vacant spaces and building vibrant communities.
+**Proven in Wichita.** OpenStudios has successfully served over 100 artists across 10 locations in Wichita since its founding. The program has a multi-year track record of activating vacant spaces and building vibrant communities.
 
-**Led by Elizabeth Stevenson**, founder and director of Open Studios in Wichita, in partnership with **Multistudio** and a local steering committee of artists and faculty from Lawrence Arts Center and the University of Kansas Art Department.
+**Led by Elizabeth Stevenson**, founder and director of OpenStudios in Wichita, in partnership with **Multistudio** and a local steering committee of artists and faculty from Lawrence Arts Center and the University of Kansas Art Department.
 
 **Not just filling space.** This isn't passive. Artists maintain active studio practices, welcome public visitors during open hours (typically Final Friday of each month), and integrate into the neighborhood—supporting local cafes, shops, and community events.
 
@@ -38,7 +38,7 @@ It's simple. Landlords donate rent-free space. Artists get free studios. Our com
 
 "People are interested in what it is – we have people looking in the window, and when they see the artwork they give us a thumbs-up. It's a chance for those kids to come downtown, because right now there's nothing specifically targeted toward them. It makes downtown more inclusive."
 
-— Ella Baccus, Open Studios artist, Wichita
+— Ella Baccus, OpenStudios artist, Wichita
 
 ---
 

@@ -5,15 +5,15 @@ draft: false
 toc: false
 tags: []
 sidebar_image: /images/2019-07-09_18-51-26_UTC.jpg
-#sidebar_caption: "An Open Studios artist at work"
+#sidebar_caption: "An OpenStudios artist at work"
 ---
 
 
 # Animate Your Vacant Space
 
-Potential tenants struggle to envision their business in a dusty, inactive window. Open Studios Lawrence can help.
+Potential tenants struggle to envision their business in a dusty, inactive window. OpenStudios Lawrence can help.
 
-By participating in Open Studios Lawrence, your storefront will become more attractive. An artist will draw foot traffic and public attention to your space. You will gain community visibility as your space is promoted on social media and through press coverage.
+By participating in OpenStudios Lawrence, your storefront will become more attractive. An artist will draw foot traffic and public attention to your space. You will gain community visibility as your space is promoted on social media and through press coverage.
 
 Our ultimate goal is to see your space rented by a permanent tenant, and when that happens you can easily terminate your agreement. Throughout the process you'll be supporting local arts and culture in Lawrence. It costs you nothing,
 
@@ -24,10 +24,10 @@ Our ultimate goal is to see your space rented by a permanent tenant, and when th
 **1. Offer your space**:
 Fill out the contact form below.
 
-**2. Open Studios Lawrence will vet and match**:
+**2. OpenStudios Lawrence will vet and match**:
 We handle artist selection through our local selection committee. Qualified artists must have serious artistic practices, be committed to community engagement, and show a willingness to  maintain the space. We then present the artist to you for final approval if you wish.
 
-**3. Open Studios Lawrence takes care of everything else**:
+**3. OpenStudios Lawrence takes care of everything else**:
 We will handle all contracts and legal agreements, liability insurance, and cost of utilities if required. We'll promote the artist in your space through social media and facilitate monthly public events.
 
 ***[Learn More](/how-it-works)***
