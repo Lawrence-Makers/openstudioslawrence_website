@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 description: "Get in touch with OpenStudios Lawrence"
-toc: false
+layout: fullwidth
 ---
 
 <div class="text-center py-3">

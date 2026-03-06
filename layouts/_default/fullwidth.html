@@ -1,0 +1,25 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Params.description }}">
+<link rel="stylesheet" href="{{.Site.Params.staticPath}}/css/single.css">
+{{ end }}
+
+{{ define "title" }}
+{{.Title }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-10 col-lg-8">
+        <div class="title mb-5">
+          <h1 class="text-center mb-4">{{ .Title }}</h1>
+        </div>
+        <article class="page-content p-2">
+        {{ .Content | emojify }}
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
