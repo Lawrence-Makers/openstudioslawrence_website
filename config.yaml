@@ -69,7 +69,7 @@ params:
     disableSearch: true
     stickyNavBar:
       enable: true
-      showOnScrollUp: true
+      showOnScrollUp: false
     enableSeparator: false
     menus:
       disableAbout: true
@@ -102,13 +102,13 @@ params:
           url: https://instagram.com/openstudioslawrence
   contact:
     enable: true
-    content: "Questions? Whether you're a landlord with space or an artist looking for a studio, we'd love to hear from you!"
+    content: "Questions? We'd love to hear from you!"
     btnName: Contact Us
     formspree:
       enable: true
       formId: xeeekpnk
       emailCaption: "Your email"
-      messageCaption: "Your message"
+      messageCaption: "Landlords with space and artists looking for a studio, use the forms  on the landlords and artists pages. Otherwise, type your message here."
     # btnLink: /contact-faq/
   footer:
     recentPosts:

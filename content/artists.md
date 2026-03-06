@@ -86,7 +86,7 @@ We will handle all contracts and legal agreements, liability insurance, and cost
                 <textarea class="form-control" name="art_statement" required placeholder="Artist Statement and/or Description of your Practice" rows="5"></textarea>
             <div class="form-group pt-3">
 				<label for="comment" class="form-label">Comments</label>
-                <textarea class="form-control" name="comment" placeholder="Any other Comments?" rows="5"></textarea>
+                <textarea class="form-control" name="comment" placeholder="Add any additional details such as space needed, plans for selling, or best time of year to install" rows="5"></textarea>
             </div>
             <div class="form-group text-center pt-3">
                 <button type="submit" class="btn">Submit</button>
