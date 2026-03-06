@@ -42,7 +42,7 @@ Menus:
     - identifier: contact
       name: Contact
       title: Contact Us
-      url: /#contact
+      url: /contact
       weight: 6
     - identifier: FAQ
       name: FAQ
@@ -50,12 +50,13 @@ Menus:
       url: /faq
       weight: 5
 params:
-  title: "OpenStudios Lawrence" 
+  title: "OpenStudios Lawrence"
   description: "Animate your storefront. Support local artists.Build vibrant communities."
   favicon: "/OS-blue.svg"
   useBootstrapCDN: false
   mathjax: false
   animate: true
+  customCSS: true
   theme:
     disableThemeToggle: false
   font:
@@ -83,8 +84,7 @@ params:
     intro: "Welcome to"
     title: "OpenStudios Lawrence"
     subtitle: "We strengthen Lawrence's art culture by activating empty storefronts with local artists"
-    content: "Artists benefit from a free studio for several months. Landlords gain an animated, more attractive space that’s easier to rent. Together, we strengthen Lawrence's art culture!"
-    # image: /images/hero.svg
+    content: "Artists benefit from a free studio for several months. Landlords gain an animated, more attractive space that's easier to rent. Together, we strengthen Lawrence's art culture!"
     image: /images/2020-01-28_16-50-31_UTC.jpg
     bottomImage:
       enable: false
@@ -94,22 +94,8 @@ params:
       url: "/how-it-works"
       download: false
       newPage: false
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-facebook
-          url: https://facebook.com/openstudioslawrence
-        - icon: fab fa-instagram
-          url: https://instagram.com/openstudioslawrence
   contact:
-    enable: true
-    content: "Questions? We'd love to hear from you!"
-    btnName: Contact Us
-    formspree:
-      enable: true
-      formId: xeeekpnk
-      emailCaption: "Your email"
-      messageCaption: "Landlords with space and artists looking for a studio, use the forms  on the landlords and artists pages. Otherwise, type your message here."
-    # btnLink: /contact-faq/
+    enable: false
   footer:
     recentPosts:
       enable: false
