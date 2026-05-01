@@ -49,6 +49,11 @@ Menus:
       title: Frequently Asked Questions
       url: /faq
       weight: 5
+    - identifier: news
+      name: News
+      title: News and Announcements
+      url: /news
+      weight: 7
 params:
   title: "OpenStudios Lawrence"
   description: "Animate your storefront. Support local artists.Build vibrant communities."

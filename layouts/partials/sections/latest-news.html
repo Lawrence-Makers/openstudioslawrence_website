@@ -1,0 +1,8 @@
+{{ if .Site.Params.latestNews.enable }}
+<div class="container text-center py-3">
+    <p style="color: var(--text-secondary-color);">
+        <strong>Latest:</strong> {{ .Site.Params.latestNews.text }} &mdash;
+        <a href="/news">Read more &rarr;</a>
+    </p>
+</div>
+{{ end }}
