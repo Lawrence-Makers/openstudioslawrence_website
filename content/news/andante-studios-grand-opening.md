@@ -10,7 +10,7 @@ description: "Our First Artists, Andante Home, is kicking off OpenStudios' grand
 ## Andante Home is moving into 745 New Hampshire St.!
 *(across the street from the 8th St. Tap Room)*
 
-Join us on May 1 at 745 New Hampshire to welcome them
+Join us on May 1, 2026 at 745 New Hampshire to welcome them
   * 11am: grand opening!
   * 6pm: reception!
  
