@@ -152,7 +152,7 @@
                     {{ if .HasChildren }}
                     <!-- Dropdown menu -->
                     <li class="nav-item navbar-text dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle nav-item-{{ .Identifier }}" href="{{ .URL }}" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="{{ .Title }}">
                             {{ .Name }}
                         </a>
@@ -168,19 +168,13 @@
                     {{else}}
                     <!-- Single menu item -->
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{.URL}}" title="{{ .Title }}">
+                        <a class="nav-link" href="{{.URL}}" title="{{ .Title }}" style="color: #777 !important;">
                             {{ .Pre }}
                             {{ .Name }}
                         </a>
                     </li>
                     {{end}}
                     {{end}}
-
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="https://www.zeffy.com/en-US/donation-form/donate-to-openstudios-lawrence" target="_blank">
-                            Donate
-                        </a>
-                    </li>
 
                     {{ if (not .Site.Params.theme.disableThemeToggle | default false) }}
                     <li class="nav-item navbar-text">

@@ -24,31 +24,31 @@ Menus:
       title: How OpenStudios Works
       url: /how-it-works
       weight: 1
-    - identifier: landlords
-      name: Landlords
-      title: Information for Building Owners
-      url: /landlords
-      weight: 2
-    - identifier: artists
-      name: Artists
-      title: Information for Artists
-      url: /artists
-      weight: 3
-    - identifier: about
-      name: About
-      title: About OpenStudios Lawrence
-      url: /about
-      weight: 4
-    - identifier: contact
-      name: Contact
-      title: Contact Us
-      url: /contact
-      weight: 6
     - identifier: FAQ
       name: FAQ
       title: Frequently Asked Questions
       url: /faq
       weight: 5
+    - identifier: getinvolved
+      name: "Get Involved!"
+      title: Get Involved with OpenStudios
+      url: "#"
+      weight: 8
+    - identifier: getinvolved-artist
+      name: "I'm an artist!"
+      url: /artists
+      parent: getinvolved
+      weight: 1
+    - identifier: getinvolved-landlord
+      name: "I'm a landlord!"
+      url: /landlords
+      parent: getinvolved
+      weight: 2
+    - identifier: getinvolved-help
+      name: "I want to help!"
+      url: /contact
+      parent: getinvolved
+      weight: 3
     - identifier: news
       name: News
       title: News and Announcements

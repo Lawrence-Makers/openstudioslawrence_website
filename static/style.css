@@ -2,9 +2,34 @@
     padding-bottom: 20px;
 }
 
+
+#hero {
+    min-height: unset;
+    padding-bottom: 4rem !important;
+}
+
+#hero a.btn {
+    margin-top: 20px;
+}
+
 /* ── Storefront Artist Roster ─────────────────────────────── */
 .storefront-block {
     --storefront-accent: var(--primary-color);
+}
+.storefront-section-heading {
+    font-size: 4.5em;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 0;
+    padding: 0.3em 0 0.15em;
+}
+.storefront-double-divider {
+    border-top: 2px solid var(--text-color);
+    border-bottom: 2px solid var(--text-color);
+    height: 5px;
+    opacity: 0.4;
 }
 .storefront-between-divider {
     color: var(--text-color);

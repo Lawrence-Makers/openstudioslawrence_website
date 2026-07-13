@@ -1,7 +1,9 @@
 {{ if .Site.Data.storefronts }}
-<section id="storefronts" class="py-5 primary-font">
+<section id="storefronts" class="pt-2 pb-5 primary-font">
   <div class="container px-3 px-sm-5">
-    <hr class="storefront-divider mb-5">
+    <div class="storefront-double-divider mb-2"></div>
+    <h2 class="storefront-section-heading">Current Storefronts</h2>
+    <div class="storefront-double-divider mt-4 mb-5"></div>
     {{ $sfIdx := 0 }}
     {{ range .Site.Data.storefronts }}
     {{ if $sfIdx }}<hr class="storefront-between-divider my-5">{{ end }}
@@ -44,6 +46,7 @@
     </div>
     {{ $sfIdx = add $sfIdx 1 }}
     {{ end }}
+    <div class="storefront-double-divider mt-5"></div>
   </div>
 </section>
 {{ end }}

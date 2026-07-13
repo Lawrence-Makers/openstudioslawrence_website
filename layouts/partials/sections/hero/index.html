@@ -1,5 +1,5 @@
 {{ if .Site.Params.hero.enable | default false }}
-<section id="hero" class="py-5 align-middle">
+<section id="hero" class="pt-5 pb-2 align-middle">
     <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-8 content {{ if .Site.Params.animate }}animate{{ end }}" id="primary-font">
@@ -33,10 +33,10 @@
                 {{ $newsPages := where .Site.RegularPages "Section" "news" }}
                 {{ $latestNews := index (sort $newsPages "Date" "desc") 0 }}
                 {{ if $latestNews }}
-                <div class="row mt-3">
+                <div class="row mt-4">
                     <div class="col-auto">
                         <div style="background-color:var(--secondary-color);border-radius:.5rem;padding:.6rem 1rem;">
-                            <p class="hero-content" style="margin:0;font-size:1.15em;"><strong>Latest:</strong> <strong>{{ $latestNews.Title }}</strong> &mdash; <a href="/news">Read more &rarr;</a></p>
+                            <p class="hero-content" style="margin:0;font-size:1.15em;"><strong>Latest News:</strong> <strong>{{ $latestNews.Title }}</strong> &mdash; <a href="/news">Read more &rarr;</a></p>
                         </div>
                     </div>
                 </div>
