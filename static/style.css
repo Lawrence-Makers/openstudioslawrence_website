@@ -63,7 +63,7 @@
 }
 .storefront-address {
     font-size: 1.9em;
-    color: var(--text-color);
+    color: var(--text-secondary-color);
     margin-bottom: 0.1em;
 }
 .storefront-hours-heading {
@@ -83,7 +83,7 @@
 .storefront-blurb {
     font-size: 1.4em;
     color: var(--text-secondary-color);
-    margin-top: 1.25em;
+    margin-top: 0.9em;
 }
 .artist-card {
     align-items: flex-start;
@@ -122,6 +122,21 @@
 }
 .artist-links a:hover {
     text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .storefront-section-heading {
+        font-size: 2.25em;
+    }
+    .storefront-location-name {
+        font-size: 1.55em;
+    }
+    .storefront-address {
+        font-size: 1.2em;
+    }
+    #hero h1 {
+        font-size: 3.125rem !important;
+    }
+
 }
 @media (max-width: 576px) {
     .artist-card {

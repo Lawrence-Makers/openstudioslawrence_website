@@ -16,12 +16,12 @@
         <h2 class="storefront-location-name mb-0">{{ .locationName }}</h2>
       </div>
       <div class="storefront-accent-line"></div>
-      {{ if .address }}<p class="storefront-address mt-2">{{ .address }}</p>{{ end }}
+      {{ if .address1 }}<p class="storefront-address mt-2">{{ .address1 }}{{ if .address2 }}<br>{{ .address2 }}{{ end }}</p>{{ end }}
       {{ if .hours }}
       <p class="storefront-hours-heading mb-0">Hours</p>
       <p class="storefront-hours mb-1">{{ range .hours }}{{ . | safeHTML }}<br>{{ end }}</p>
       {{ end }}
-      {{ if .blurb }}<p class="storefront-blurb mt-1">{{ .blurb | safeHTML }}</p>{{ end }}
+      {{ if .blurb }}<p class="storefront-blurb">{{ .blurb | safeHTML }}</p>{{ end }}
       <div class="row gy-4 gx-5 mt-1">
         {{ range .artists }}
         <div class="col-12 col-md-6">
