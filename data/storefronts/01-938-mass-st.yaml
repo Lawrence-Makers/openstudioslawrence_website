@@ -1,5 +1,8 @@
-title: "Meet the Artists at"
-locationName: "938 Mass St"
+locationName: "The Livingroom Collective"
+address: "938 Massachusetts St, Lawrence, KS 66044"
+hours:
+  - "Monday: 9am to 5pm"
+  - "Tuesday: 10am to 6pm"
 blurb: "Quick blurb about the space and some things inside."
 artists:
   - name: "Artist Name"

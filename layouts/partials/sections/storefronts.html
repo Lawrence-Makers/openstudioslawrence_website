@@ -4,20 +4,23 @@
     <hr class="storefront-divider mb-5">
     {{ $sfIdx := 0 }}
     {{ range .Site.Data.storefronts }}
+    {{ if $sfIdx }}<hr class="storefront-between-divider my-5">{{ end }}
     {{ $isOdd := mod $sfIdx 2 }}
     {{ $accent := "var(--primary-color)" }}
     {{ if $isOdd }}{{ $accent = "#f97316" }}{{ end }}
     <div class="storefront-block mb-5 pb-4" style="{{ printf `--storefront-accent: %s` $accent | safeCSS }}">
       <div class="d-flex align-items-center gap-3 mb-1">
-        <img src="{{ if $isOdd }}/OS-orange.svg{{ else }}/OS-blue.svg{{ end }}" alt="OpenStudios logo" style="height: 4.5em; width: auto; flex-shrink: 0;">
-        <div>
-          <p class="storefront-eyebrow mb-0">{{ .title }}</p>
-          <h2 class="storefront-location-name mb-0">{{ .locationName }}</h2>
-        </div>
+        <img src="{{ if $isOdd }}/OS-orange.svg{{ else }}/OS-blue.svg{{ end }}" alt="OpenStudios logo" style="height: 5.5em; width: auto; flex-shrink: 0;">
+        <h2 class="storefront-location-name mb-0">{{ .locationName }}</h2>
       </div>
       <div class="storefront-accent-line"></div>
-      {{ if .blurb }}<p class="storefront-blurb mt-2">{{ .blurb }}</p>{{ end }}
-      <div class="row g-4 mt-1">
+      {{ if .address }}<p class="storefront-address mt-2">{{ .address }}</p>{{ end }}
+      {{ if .hours }}
+      <p class="storefront-hours-heading mb-0">Hours</p>
+      <p class="storefront-hours mb-1">{{ range .hours }}{{ . | safeHTML }}<br>{{ end }}</p>
+      {{ end }}
+      {{ if .blurb }}<p class="storefront-blurb mt-1">{{ .blurb | safeHTML }}</p>{{ end }}
+      <div class="row gy-4 gx-5 mt-1">
         {{ range .artists }}
         <div class="col-12 col-md-6">
           <div class="row g-0 artist-card">
