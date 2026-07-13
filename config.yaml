@@ -62,6 +62,9 @@ params:
   mathjax: false
   animate: true
   customCSS: true
+  color:
+    darkmode:
+      primaryColor: "#007bff"
   theme:
     disableThemeToggle: false
   font:

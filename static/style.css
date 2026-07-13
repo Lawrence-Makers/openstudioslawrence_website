@@ -1,3 +1,88 @@
 #single {
     padding-bottom: 20px;
 }
+
+/* ── Storefront Artist Roster ─────────────────────────────── */
+.storefront-block {
+    --storefront-accent: var(--primary-color);
+}
+.storefront-divider {
+    border-color: var(--primary-color);
+    border-width: 2px;
+    opacity: 1;
+}
+.storefront-eyebrow {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--storefront-accent);
+}
+.storefront-location-name {
+    font-size: 2.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0;
+}
+.storefront-accent-line {
+    width: 50%;
+    height: 3px;
+    background-color: var(--storefront-accent);
+    margin-top: 0.6em;
+    margin-bottom: 0.4em;
+}
+.storefront-blurb {
+    font-size: 0.95em;
+    color: var(--text-color);
+}
+.artist-card {
+    align-items: flex-start;
+}
+.artist-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.artist-name {
+    font-size: 0.95em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.25em;
+}
+.artist-rule {
+    color: var(--storefront-accent) !important;
+    border-color: var(--storefront-accent) !important;
+    opacity: 1 !important;
+    margin: 0.25em 0 0.5em;
+}
+.artist-bio {
+    font-size: 0.82em;
+    line-height: 1.55;
+    color: var(--text-color);
+}
+.artist-links {
+    font-size: 0.8em;
+}
+.artist-links a {
+    color: var(--text-link-color);
+    text-decoration: none;
+}
+.artist-links a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 576px) {
+    .artist-card {
+        flex-direction: column;
+    }
+    .artist-card .col-5,
+    .artist-card .col-7 {
+        width: 100%;
+        padding-left: 0 !important;
+        margin-top: 0.75em;
+    }
+    .artist-photo {
+        aspect-ratio: 16 / 9;
+    }
+}
