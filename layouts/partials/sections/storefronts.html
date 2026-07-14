@@ -17,9 +17,21 @@
       </div>
       <div class="storefront-accent-line"></div>
       {{ if .address1 }}<p class="storefront-address mt-2">{{ .address1 }}{{ if .address2 }}<br>{{ .address2 }}{{ end }}</p>{{ end }}
-      {{ if or .hoursHeading .hours }}
-      <p class="storefront-hours-heading mb-0">{{ .hoursHeading | default "Hours" | safeHTML }}</p>
-      {{ if .hours }}<p class="storefront-hours mb-1">{{ range .hours }}{{ . | safeHTML }}<br>{{ end }}</p>{{ end }}
+      {{ if or .hoursHeading .hours .events }}
+      <div class="d-flex gap-5 flex-wrap mt-1">
+        {{ if or .hoursHeading .hours }}
+        <div>
+          <p class="storefront-hours-heading mb-0">{{ .hoursHeading | default "Hours" | safeHTML }}</p>
+          {{ if .hours }}<p class="storefront-hours mb-1">{{ range .hours }}{{ . | safeHTML }}<br>{{ end }}</p>{{ end }}
+        </div>
+        {{ end }}
+        {{ if .events }}
+        <div class="storefront-events">
+          <p class="storefront-events-heading mb-1">Upcoming Events</p>
+          {{ range .events }}<p class="storefront-event-item mb-1">{{ . | safeHTML }}</p>{{ end }}
+        </div>
+        {{ end }}
+      </div>
       {{ end }}
       {{ if .photo }}
       <div class="storefront-photo-wrap">

@@ -87,6 +87,23 @@
     margin-bottom: 0.25em;
     text-align: center;
 }
+.storefront-events {
+    border-left: 3px solid var(--storefront-accent);
+    padding-left: 0.75em;
+    padding-top: 0.1em;
+}
+.storefront-events-heading {
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--storefront-accent);
+}
+.storefront-event-item {
+    font-size: 1.05em;
+    color: var(--text-color);
+    line-height: 1.4;
+}
 .storefront-photo-wrap {
     position: relative;
     margin-top: 1.25em;
