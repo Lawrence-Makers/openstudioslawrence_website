@@ -1,7 +1,8 @@
 locationName: "The Livingroom Collective"
 address1: "938 Massachusetts St"
 address2: "Lawrence, KS 66044"
-hoursHeading: "<i>Grand Opening July 31 (Final Friday) from 5 to 9pm!</i>"
+events:
+  - "Grand Opening July 31 (Final Friday) from 5 to 9pm!"
 photo: "/images/storefronts/livingroomCollective/LivingroomCollective.jpg"
 blurb: "Imagine a community-centered, warm and inviting 1,600 square foot living room space. Come hang out, share, chat, participate and even purchase art! Immerse yourself in the environment while the artists create their work."
 artists:
