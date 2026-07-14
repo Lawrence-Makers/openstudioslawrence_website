@@ -21,7 +21,13 @@
       <p class="storefront-hours-heading mb-0">{{ .hoursHeading | default "Hours" | safeHTML }}</p>
       {{ if .hours }}<p class="storefront-hours mb-1">{{ range .hours }}{{ . | safeHTML }}<br>{{ end }}</p>{{ end }}
       {{ end }}
-      {{ if .photo }}<img src="{{ .photo }}" class="storefront-photo" alt="{{ .locationName }}">{{ end }}
+      {{ if .photo }}
+      <div class="storefront-photo-wrap">
+        <img src="{{ .photo }}" class="storefront-photo" alt="{{ .locationName }}">
+        {{ if .photoLabelLeft }}<span class="photo-label photo-label-left">{{ .photoLabelLeft }}</span>{{ end }}
+        {{ if .photoLabelRight }}<span class="photo-label photo-label-right">{{ .photoLabelRight }}</span>{{ end }}
+      </div>
+      {{ end }}
       {{ if .blurb }}<div class="storefront-blurb">{{ .blurb | safeHTML }}</div>{{ end }}
       <p class="storefront-artists-heading">Artists</p>
       <div class="row gy-4 gx-5 mt-1">

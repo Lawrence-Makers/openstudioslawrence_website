@@ -1,0 +1,26 @@
+locationName: "Toni Brou & Brandt Minden"
+address1: "745 New Hampshire St."
+address2: "Lawrence, KS 66044"
+hours:
+  - "Thursday: 11am to 7pm"
+  - "Friday: 11am to 7pm"
+  - "Saturday: 9am to 5pm"
+  - "Sunday: 11am to 3pm"
+  - "<i>Open through the end of August!</i>"
+photo: "/images/storefronts/toniAndBrandt/toniAndBrandt2.jpg"
+photoLabelLeft: "Toni Brou"
+photoLabelRight: "Brandt Minden"
+blurb: "If you've ever watched CBS Sunday Morning then you've probably seen Toni Brou's beautiful suns, a signature of the show. Whatever happens in life, Toni knows \"the sun always rises.\" Sharing the space, Brandt's rainbow style contrasts Toni's dramatically while also conveying that same send of happiness and joy. As Brandt says, \"try to be a rainbow in someone else’s cloud.\""
+artists:
+  - name: "Toni Brou"
+    image: "/images/storefronts/toniAndBrandt/toni.jpg"
+    bio: "Toni's work spans fine art, illustration, and graphic design. She earned a BFA in Graphic Design and Illustration from KU and works in higher ed as a senior-level graphic designer. Toni learned to love the creative process watching her dad make what he called \"junk art.\" That experience continues to shape her own work."
+    links:
+      - label: "Website"
+        emoji: "🌐"
+  - name: "Brandt Minden"
+    image: "/images/storefronts/toniAndBrandt/brandt.jpg"
+    bio: "Brandt creates vibrant, colorful pieces featuring all the colors of the rainbow, in various geometric shapes and patterns. His canvases come in all different shapes and sizes. He also takes photographs, mostly of nature, architecture, or anything that catches his eye."
+    links:
+      - label: "Instagram"
+        url: "https://www.instagram.com/brandtmindenphotoart/"
