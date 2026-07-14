@@ -27,7 +27,7 @@
                             <h5 class="card-title bg-transparent" title="{{ .Title }}">{{ .Title | truncate 70 }}</h5>
                         </a>
                         <div class="card-text secondary-font">
-                            <p>{{ (.Params.description | default .Summary) | truncate 200 }}</p>
+                            <p>{{ (.Params.description | default .Summary) | safeHTML }}</p>
                         </div>
                     </div>
                     <div class="mt-auto post-footer bg-transparent py-3">
