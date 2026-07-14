@@ -46,9 +46,14 @@ Menus:
       weight: 2
     - identifier: getinvolved-help
       name: "I want to help!"
-      url: /contact
+      url: /get-involved
       parent: getinvolved
       weight: 3
+    - identifier: getinvolved-contact
+      name: "Contact us"
+      url: /contact
+      parent: getinvolved
+      weight: 4
     - identifier: news
       name: News
       title: News and Announcements
