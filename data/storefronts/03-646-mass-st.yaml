@@ -1,5 +1,6 @@
 locationName: "Lawrence Percolator"
-address: "646 Massachusetts St, Lawrence, KS 66044"
+address1: "646 Massachusetts St"
+address2: "Lawrence, KS 66044"
 hours:
   - "Monday: 1-4pm"
   - "Tuesday: 1-4pm"
