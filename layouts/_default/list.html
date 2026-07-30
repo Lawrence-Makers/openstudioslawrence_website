@@ -10,10 +10,9 @@
 {{ define "main" }}
 <div class="container pt-5" id="list-page">
     <h2 class="text-center pb-2">{{.Title}}</h2>
-    <div class="row">
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;padding:1rem 0;">
         {{ range .Paginator.Pages }}
-        <div class="col-lg-4 col-md-6 my-3">
-            <div class="card-columns">
+        <div>
                 <div class="card h-100">
                     {{ if and (not (.Site.Params.listPages.disableFeaturedImage | default false)) (.Params.image) }}
                     <div class="card-header">
@@ -35,7 +34,6 @@
                         <a href="{{ .RelPermalink }}" class="float-end btn btn-outline-info btn-sm">{{ .Site.Params.terms.read | default "Read" }}</a>
                     </div>
                 </div>
-            </div>
         </div>
         {{ end }}
         <div class="row justify-content-center">
