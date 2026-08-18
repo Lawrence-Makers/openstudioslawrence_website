@@ -4,7 +4,8 @@ address2: "Lawrence, KS 66044"
 hours:
   - "Saturday: 12-9pm"
   - "Sunday: 12-5pm"
-
+  - <i>Open through September 20!</i>
+  
 blurb: "Lawrence Percolator is a 501c3 nonprofit art collective dedicated to increasing accessibility to the arts and fostering connection between artist and audience. We're creating in our space an active cultural hub. Come to our free or low-cost workshops, our artist gatherings, and our community-centered programming. In our welcoming third space, artists, creatives, and art lovers connect, collaborate, and build lasting community."
 artists:
   - name: "Paul Punzo"
