@@ -41,10 +41,10 @@ jobs:
       - name: Build the site
         run: |
           set -o pipefail
-          if hugo 2>&1 | tee hugo.log; then exit 0; fi
+          if hugo 2>&1 | tee "$RUNNER_TEMP/hugo.log"; then exit 0; fi
           # Hugo failed: surface its error on the run page and on the offending file
-          msg=$(grep -m1 'ERROR' hugo.log | sed -e 's/^.*ERROR //' -e "s#${GITHUB_WORKSPACE}/##g")
-          loc=$(grep -m1 -oE "\"${GITHUB_WORKSPACE}/[^\"]+:[0-9]+(:[0-9]+)?\"" hugo.log | tr -d '"' | sed "s#${GITHUB_WORKSPACE}/##")
+          msg=$(grep -m1 'ERROR' "$RUNNER_TEMP/hugo.log" | sed -e 's/^.*ERROR //' -e "s#${GITHUB_WORKSPACE}/##g")
+          loc=$(grep -m1 -oE "\"${GITHUB_WORKSPACE}/[^\"]+:[0-9]+(:[0-9]+)?\"" "$RUNNER_TEMP/hugo.log" | tr -d '"' | sed "s#${GITHUB_WORKSPACE}/##")
           file=$(echo "$loc" | cut -d: -f1); line=$(echo "$loc" | cut -d: -f2)
           if [ -n "$file" ]; then
             echo "::error file=${file},line=${line},title=Site not published: error in ${file} line ${line}::${msg}"
