@@ -9,13 +9,11 @@ This repository is the source for [openstudioslawrence.org](https://openstudiosl
 | `dev` | [dev.openstudioslawrence.org](https://dev.openstudioslawrence.org) | Only people on the list. Log in with your email and you'll be sent a code |
 | `master` | [openstudioslawrence.org](https://openstudioslawrence.org) | Everyone |
 
-**Make your changes on `dev`.** This repository opens on `dev` by default, so that's where you'll be unless you switch. Check your changes on the dev site, and when they look right, publish them to the live site (see [Publishing to the live site](#publishing-to-the-live-site)).
-
-The `master` branch can't be edited directly. If GitHub ever offers to "propose changes" when you save, you've switched to `master` by mistake. Cancel, switch back to `dev` with the branch menu at the top left, and make the change there.
+**Always make your changes on `dev`.** Check them on the dev site, and when they look right, publish them to the live site (see [Publishing to the live site](#publishing-to-the-live-site)). The `master` branch can't be edited directly. If GitHub offers to "create a new branch" or "propose changes" when you save, you're on `master` by mistake. Cancel, switch to `dev`, and make the change there.
 
 ## Making a change
 
-1. Check that the branch menu at the top left says **`dev`** (it should, since that's the default).
+1. At the top left of this page, use the branch menu (it usually says `master`) to switch to **`dev`**.
 2. Find the file you want:
    - **News posts:** `content/news/`
    - **Storefronts:** `data/storefronts/` (see [STOREFRONTS.md](STOREFRONTS.md) for every field)
@@ -90,12 +88,10 @@ Please resize photos before uploading. Around 1,500 pixels wide and under 1 MB i
 
 When the dev site looks right:
 
-1. Open **[this link](https://github.com/Lawrence-Makers/openstudioslawrence_website/compare/master...dev)**. It shows every change on `dev` that isn't on the live site yet. Look it over.
-2. Click **Create pull request**, then **Create pull request** again.
-3. Click **Merge pull request**, then **Confirm merge**. The merge button stays disabled until the dev site's build has succeeded, so a broken change can't reach the live site.
+1. Go to **Pull requests** → **New pull request**.
+2. Set **base** to `master` and **compare** to `dev`. GitHub shows every change that will go live. Look it over.
+3. Click **Create pull request**, then **Merge pull request**, then **Confirm merge**. The merge button stays disabled until the dev site's build has succeeded, so a broken change can't reach the live site.
 4. About a minute later, the live site is updated.
-
-(Going to **Pull requests** → **New pull request** works too, but you'd have to change **base** to `master` yourself, since it defaults to `dev`.)
 
 ## Undoing a mistake
 
