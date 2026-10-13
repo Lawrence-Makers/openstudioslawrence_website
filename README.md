@@ -9,7 +9,7 @@ This repository is the source for [openstudioslawrence.org](https://openstudiosl
 | `dev` | [dev.openstudioslawrence.org](https://dev.openstudioslawrence.org) | Only people on the list. Log in with your email and you'll be sent a code |
 | `master` | [openstudioslawrence.org](https://openstudioslawrence.org) | Everyone |
 
-**Always make your changes on `dev` first.** Check them on the dev site, and when they look right, publish them to the live site (see [Publishing to the live site](#publishing-to-the-live-site)).
+**Always make your changes on `dev`.** Check them on the dev site, and when they look right, publish them to the live site (see [Publishing to the live site](#publishing-to-the-live-site)). The `master` branch can't be edited directly. If GitHub offers to "create a new branch" or "propose changes" when you save, you're on `master` by mistake. Cancel, switch to `dev`, and make the change there.
 
 ## Making a change
 
@@ -90,7 +90,7 @@ When the dev site looks right:
 
 1. Go to **Pull requests** → **New pull request**.
 2. Set **base** to `master` and **compare** to `dev`. GitHub shows every change that will go live. Look it over.
-3. Click **Create pull request**, then **Merge pull request**. If you're offered a choice, pick **Create a merge commit** (not "Squash").
+3. Click **Create pull request**, then **Merge pull request**, then **Confirm merge**. The merge button stays disabled until the dev site's build has succeeded, so a broken change can't reach the live site.
 4. About a minute later, the live site is updated.
 
 ## Undoing a mistake
