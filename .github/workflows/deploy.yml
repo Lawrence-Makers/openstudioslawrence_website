@@ -39,7 +39,31 @@ jobs:
           hugo version
 
       - name: Build the site
-        run: hugo
+        run: |
+          set -o pipefail
+          if hugo 2>&1 | tee hugo.log; then exit 0; fi
+          # Hugo failed: surface its error on the run page and on the offending file
+          msg=$(grep -m1 'ERROR' hugo.log | sed -e 's/^.*ERROR //' -e "s#${GITHUB_WORKSPACE}/##g")
+          loc=$(grep -m1 -oE "\"${GITHUB_WORKSPACE}/[^\"]+:[0-9]+(:[0-9]+)?\"" hugo.log | tr -d '"' | sed "s#${GITHUB_WORKSPACE}/##")
+          file=$(echo "$loc" | cut -d: -f1); line=$(echo "$loc" | cut -d: -f2)
+          if [ -n "$file" ]; then
+            echo "::error file=${file},line=${line},title=Site not published: error in ${file} line ${line}::${msg}"
+          else
+            echo "::error title=Site not published: Hugo build failed::${msg}"
+          fi
+          {
+            echo "## ❌ Site not published"
+            echo
+            echo "Hugo couldn't build the site, so **nothing was deployed** and the website is unchanged."
+            echo
+            [ -n "$file" ] && echo "**File:** \`${file}\` **line ${line}**" && echo
+            echo '```'
+            echo "$msg"
+            echo '```'
+            echo
+            echo "Fix the file and commit again; the site will publish automatically once the build succeeds."
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1
 
       - name: Publish to Cloudflare Pages
         env:
