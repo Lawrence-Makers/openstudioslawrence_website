@@ -12,7 +12,7 @@ outputs:
     - "RSS"
 enableRobotsTXT: true
 pagination:
-  pagerSize: 3
+  pagerSize: 12
 markup:
   goldmark:
     renderer:
