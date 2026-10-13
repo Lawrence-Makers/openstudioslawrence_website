@@ -17,7 +17,7 @@ This repository is the source for [openstudioslawrence.org](https://openstudiosl
 2. Find the file you want:
    - **News posts:** `content/news/`
    - **Storefronts:** `data/storefronts/` (see [STOREFRONTS.md](STOREFRONTS.md) for every field)
-   - **Storefront photos:** `static/images/storefronts/<storefront folder>/`
+   - **Photos:** `static/images/` (see [Photos](#photos))
 3. To edit, open the file and click the pencil icon. To add something new, use **Add file** → **Create new file** or **Upload files**.
 4. Click **Commit changes** and choose **Commit directly to the `dev` branch**. Add a short note about what you changed.
 5. Wait about a minute, then check [dev.openstudioslawrence.org](https://dev.openstudioslawrence.org).
@@ -66,13 +66,23 @@ When the build fails because of a storefront file, the error will usually say "d
 
 ## Photos
 
-Upload photos to the storefront's folder under `static/images/storefronts/`, then refer to them in the storefront file **without** the `static` part. For example, a photo uploaded to `static/images/storefronts/percolator/jane.jpg` is written as:
+Every file under `static/` is published at the same path **without** the `static` part. So a photo uploaded to `static/images/example.jpg` is referred to as `/images/example.jpg`.
 
-```
-image: "/images/storefronts/percolator/jane.jpg"
-```
+Where to put them:
 
-Please resize photos before uploading. Around 1,500 pixels wide and under 1 MB is plenty, and the site loads faster.
+- **Storefront photos** go in that storefront's folder, `static/images/storefronts/<storefront folder>/`. In the storefront file:
+
+  ```
+  image: "/images/storefronts/percolator/jane.jpg"
+  ```
+
+- **Photos for news posts and pages** go directly in `static/images/`. To show one in a news post:
+
+  ```
+  ![Description of the photo for people who can't see it](/images/october-opening.jpg)
+  ```
+
+Please resize photos before uploading. Around 1,500 pixels wide and under 1 MB is plenty, and the site loads faster. Avoid spaces in file names.
 
 ## Publishing to the live site
 
