@@ -63,6 +63,14 @@ photo: "/images/storefronts/livingroomCollective/LivingroomCollective.jpg"
 
 ---
 
+### `photoMobile`
+Optional. A different storefront photo to show on phones instead of `photo`. Useful when `photo` is a wide side-by-side image that gets too small on a phone screen.
+```yaml
+photoMobile: "/images/storefronts/example/gallery-single.jpg"
+```
+
+---
+
 ### `photoLabelLeft` / `photoLabelRight`
 Text labels overlaid on the lower-right corner of each half of a side-by-side combined photo. Only useful when the photo is a two-panel image.
 ```yaml

@@ -35,7 +35,7 @@
       {{ end }}
       {{ if .photo }}
       <div class="storefront-photo-wrap">
-        <img src="{{ .photo }}" class="storefront-photo" alt="{{ .locationName }}">
+        <picture>{{ with .photoMobile }}<source media="(max-width: 576px)" srcset="{{ . }}">{{ end }}<img src="{{ .photo }}" class="storefront-photo" alt="{{ .locationName }}"></picture>
         {{ if .photoLabelLeft }}<span class="photo-label photo-label-left">{{ .photoLabelLeft }}</span>{{ end }}
         {{ if .photoLabelRight }}<span class="photo-label photo-label-right">{{ .photoLabelRight }}</span>{{ end }}
       </div>
