@@ -84,6 +84,16 @@ Where to put them:
 
 Please resize photos before uploading. Around 1,500 pixels wide and under 1 MB is plenty, and the site loads faster. Avoid spaces in file names.
 
+## Sending a preview to someone for approval
+
+Artists and others outside the team can't log in to the dev site, but every change on `dev` also gets its own **shareable preview link** that needs no login.
+
+1. After you commit to `dev`, open the **Actions** tab and click your run.
+2. Once it has finished (green check), the **Annotations** box shows **Shareable preview of this version** with a link like `https://1a2b3c4d.openstudioslawrence.pages.dev`.
+3. Copy that link into your email to the artist.
+
+The link always shows exactly that version, even if you make more changes on `dev` afterward. It isn't password-protected, but it's random and search engines are told to ignore it, so only people you send it to will see it. If you make changes after their feedback, send them the new link from the newer run.
+
 ## Publishing to the live site
 
 When the dev site looks right:
