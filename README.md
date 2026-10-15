@@ -84,6 +84,12 @@ Where to put them:
 
 Please resize photos before uploading. Around 1,500 pixels wide and under 1 MB is plenty, and the site loads faster. Avoid spaces in file names.
 
+How storefront photos are shown:
+
+- **Artist photos** appear as squares on computers and as a wide strip on phones, cropped from the top. If a face gets cut off on phones, add `imagePosition` to that artist (see [STOREFRONTS.md](STOREFRONTS.md)).
+- **The storefront photo** fills the page width and is cut to at most 400 pixels tall. Wide, landscape shots at least 1,200 pixels wide work best. Tall photos and posters lose most of their content. To show a different photo on phones, use `photoMobile`.
+- **Sideways or upside-down photos:** phones often save a photo in one orientation with a note saying "rotate this." Some editing and resizing tools drop that note, and the photo then comes out sideways. If that happens, rotate the photo in an editor and save it again before uploading.
+
 ## Sending a preview to someone for approval
 
 Artists and others outside the team can't log in to the dev site, but every change on `dev` also gets its own **shareable preview link** that needs no login.
