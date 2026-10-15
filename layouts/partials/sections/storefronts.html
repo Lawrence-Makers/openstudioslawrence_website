@@ -47,7 +47,7 @@
         <div class="col-12 col-md-6">
           <div class="row g-0 artist-card">
             <div class="col-5">
-              <img src="{{ .image }}" class="artist-photo" alt="{{ .name }}">
+              <img src="{{ .image }}" class="artist-photo" alt="{{ .name }}"{{ with .imagePosition }} style="{{ printf `object-position: center %s` . | safeCSS }}"{{ end }}>
             </div>
             <div class="col-7 ps-3 artist-info">
               <h5 class="artist-name">{{ .name }}</h5>

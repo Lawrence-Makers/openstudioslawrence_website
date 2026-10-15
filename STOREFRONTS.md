@@ -94,6 +94,12 @@ Path to the artist's photo, relative to `static/`. Displays as a square on deskt
 image: "/images/storefronts/livingroomCollective/Kim.webp"
 ```
 
+#### `imagePosition`
+Optional. Which part of the photo stays visible on phones, where artist photos are cropped to a wide 16:9 strip. A percentage from the top: `0%` shows the top of the photo (the default), `50%` the middle, `100%` the bottom. Use it when a face gets cut off on mobile. Has no effect on desktop, where the whole square photo shows.
+```yaml
+imagePosition: "60%"
+```
+
 #### `bio`
 Short artist biography. Accepts HTML (`<b>`, `<i>`, etc.).
 ```yaml
