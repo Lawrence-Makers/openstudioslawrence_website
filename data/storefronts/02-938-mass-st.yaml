@@ -63,3 +63,7 @@ artists:
         url: "https://basslauren.myportfolio.com/painting"
       - label: "Instagram"
         url: "https://www.instagram.com/laurenbass_art/"
+  - name: "Marilyn Smith"
+    image: "/images/storefronts/lawrencePottersGuild/marilyn-smith.jpg"
+    imagePosition: "30%"
+    bio: "Marilyn is a retired microbiologist who spent her career working with viruses. She makes molds of plants and uses them in functional work, including kitchenware and plant pots. Her pieces are at Vinland Valley Nursery and Mass. St. Plant Co."
