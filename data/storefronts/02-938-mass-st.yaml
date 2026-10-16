@@ -67,3 +67,13 @@ artists:
     image: "/images/storefronts/lawrencePottersGuild/marilyn-smith.jpg"
     imagePosition: "30%"
     bio: "Marilyn is a retired microbiologist who spent her career working with viruses. She makes molds of plants and uses them in functional work, including kitchenware and plant pots. Her pieces are at Vinland Valley Nursery and Mass. St. Plant Co."
+  - name: "Sherri Hanna"
+    image: "/images/storefronts/lawrencePottersGuild/sherri-hanna.jpg"
+    imagePosition: "60%"
+    bio: "Sherri is a retired high school art educator from Olathe, Kansas, and a 2002 recipient of the Olathe Public Schools Foundation's Educator Excellence Award. She is especially proud of her students' own scholarships and awards in the arts."
+    links:
+      - label: "Website"
+        emoji: "🌐"
+        url: "https://sherrihanna.com/"
+      - label: "Facebook"
+        url: "https://www.facebook.com/sherri.hanna.7"
