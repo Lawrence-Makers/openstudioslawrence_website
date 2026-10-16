@@ -84,6 +84,22 @@ Where to put them:
 
 Please resize photos before uploading. Around 1,500 pixels wide and under 1 MB is plenty, and the site loads faster. Avoid spaces in file names.
 
+How storefront photos are shown:
+
+- **Artist photos** appear as squares on computers and as a wide strip on phones, cropped from the top. If a face gets cut off on phones, add `imagePosition` to that artist (see [STOREFRONTS.md](STOREFRONTS.md)).
+- **The storefront photo** fills the page width and is cut to at most 400 pixels tall. Wide, landscape shots at least 1,200 pixels wide work best. Tall photos and posters lose most of their content. To show a different photo on phones, use `photoMobile`.
+- **Sideways or upside-down photos:** phones often save a photo in one orientation with a note saying "rotate this." Some editing and resizing tools drop that note, and the photo then comes out sideways. If that happens, rotate the photo in an editor and save it again before uploading.
+
+## Sending a preview to someone for approval
+
+Artists and others outside the team can't log in to the dev site, but every change on `dev` also gets its own **shareable preview link** that needs no login.
+
+1. After you commit to `dev`, open the **Actions** tab and click your run.
+2. Once it has finished (green check), the **Annotations** box shows **Shareable preview of this version** with a link like `https://1a2b3c4d.openstudioslawrence.pages.dev`.
+3. Copy that link into your email to the artist.
+
+The link always shows exactly that version, even if you make more changes on `dev` afterward. It isn't password-protected, but it's random and search engines are told to ignore it, so only people you send it to will see it. If you make changes after their feedback, send them the new link from the newer run.
+
 ## Publishing to the live site
 
 When the dev site looks right:

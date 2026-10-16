@@ -69,8 +69,23 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
+          set -o pipefail
           npx --yes wrangler@4 pages deploy public \
             --project-name="$PAGES_PROJECT" \
             --branch="${GITHUB_REF_NAME}" \
             --commit-hash="${GITHUB_SHA}" \
-            --commit-message="$(git log -1 --pretty=%s | head -c 300)"
+            --commit-message="$(git log -1 --pretty=%s | head -c 300)" \
+            2>&1 | tee "$RUNNER_TEMP/deploy.log"
+          # Every deploy gets its own frozen, unguessable address. On dev, show it
+          # at the top of the run page so it can be sent to someone for review.
+          snap=$(grep -m1 -oE "https://[0-9a-f]{8}\.${PAGES_PROJECT}\.pages\.dev" "$RUNNER_TEMP/deploy.log" || true)
+          if [ "$GITHUB_REF_NAME" = "dev" ] && [ -n "$snap" ]; then
+            echo "::notice title=Shareable preview of this version::${snap}"
+            {
+              echo "## 🔗 Shareable preview"
+              echo
+              echo "Send this link to anyone who needs to review this version. No login needed, and it won't change even if dev does:"
+              echo
+              echo "**${snap}**"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi

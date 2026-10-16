@@ -63,6 +63,14 @@ photo: "/images/storefronts/livingroomCollective/LivingroomCollective.jpg"
 
 ---
 
+### `photoMobile`
+Optional. A different storefront photo to show on phones instead of `photo`. Useful when `photo` is a wide side-by-side image that gets too small on a phone screen.
+```yaml
+photoMobile: "/images/storefronts/example/gallery-single.jpg"
+```
+
+---
+
 ### `photoLabelLeft` / `photoLabelRight`
 Text labels overlaid on the lower-right corner of each half of a side-by-side combined photo. Only useful when the photo is a two-panel image.
 ```yaml
@@ -92,6 +100,12 @@ name: "Kim Brook"
 Path to the artist's photo, relative to `static/`. Displays as a square on desktop, 16:9 cropped from the top on mobile.
 ```yaml
 image: "/images/storefronts/livingroomCollective/Kim.webp"
+```
+
+#### `imagePosition`
+Optional. Which part of the photo stays visible on phones, where artist photos are cropped to a wide 16:9 strip. A percentage from the top: `0%` shows the top of the photo (the default), `50%` the middle, `100%` the bottom. Use it when a face gets cut off on mobile. Has no effect on desktop, where the whole square photo shows.
+```yaml
+imagePosition: "60%"
 ```
 
 #### `bio`
