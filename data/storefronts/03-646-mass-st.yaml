@@ -10,6 +10,7 @@ blurb: "Lawrence Percolator is a 501c3 nonprofit art collective dedicated to inc
 artists:
   - name: "Paul Punzo"
     image: "/images/storefronts/percolator/paul-punzo-lawrence-percolator.jpeg"
+    imagePosition: "50%"
     bio: "Paul has been making colorful linoleum block prints for 15 years, participates in art fairs and lives in North lawrence with his studio in the basement."
     links:
       - label: "Website"
@@ -21,6 +22,7 @@ artists:
         url: "https://www.instagram.com/elgatoprinting/"
   - name: "Kyla Love"
     image: "/images/storefronts/percolator/kyla-love-lawrence-percolator.jpg"
+    imagePosition: "30%"
     bio: "Kyla is a web designer and multidisciplinary dabbler drawn to installation, digital art, and collaborative projects that bring people together."
     links:
       - label: "Website"
@@ -30,6 +32,7 @@ artists:
         url: "https://www.instagram.com/kdloveco/"
   - name: "Erika Kjorlie Geery"
     image: "/images/storefronts/percolator/erika-kjorlie-geery-lawrence-percolator-1.jpg"
+    imagePosition: "30%"
     bio: "Erika has been a professional artist since she sold her first painting at the age of 14. She enjoys teaching Art and working with children as well as adults."
     links:
       - label: "Instagram"
@@ -40,6 +43,7 @@ artists:
         url: "https://www.instagram.com/raintreemontessoriart"
   - name: "Christi Scanlin Dobson, PhD"
     image: "/images/storefronts/percolator/christie-scanlin-dobson-lawrence-percolator.jpg"
+    imagePosition: "30%"
     bio: "Christie is a passionate artist, advocate, registered drama therapist, and educator. Her life and work are dedicated to empowering creativity and collaborative social justice work."
     links:
       - label: "Website"
@@ -54,6 +58,7 @@ artists:
         url: "https://danielbornplaywright.com/"
   - name: "Michael O. Taylor (MT)"
     image: "/images/storefronts/percolator/michael-taylor-lawrence-percolator.jpg"
+    imagePosition: "30%"
     bio: "MT is a prolific creator of original mixed media, graffiti, and stencil work. He's also the artist and designer behind PixNinja, a Lawrence studio blending marketing and design."
     links:
       - label: "Website"
