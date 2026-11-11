@@ -24,6 +24,11 @@ Menus:
       title: How OpenStudios Works
       url: /how-it-works
       weight: 1
+    - identifier: aboutus
+      name: About Us
+      title: About OpenStudios Lawrence
+      url: /about-us
+      weight: 2
     - identifier: FAQ
       name: FAQ
       title: Frequently Asked Questions
