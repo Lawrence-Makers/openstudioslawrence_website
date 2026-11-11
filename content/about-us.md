@@ -14,7 +14,7 @@ toc: false
 
 **Lauren Bass** - Co-Director, OpenStudios Lawrence
 
-Lauren is an artist based in Lawrence, Kansas with a history of non-profit and arts engagement. Her work explores the human connection to the natural world through her mediums of oil painting, ink, and videography. In addition to her artistic practice, she works as a fundraising and marketing professional. Having first joined OpenStudios’ second Lawrence location as an artist and volunteer, she now co-directs the organization, expanding access to creative space through fundraising, media engagement, and community partnerships.
+[Lauren](https://basslauren.myportfolio.com) is an artist based in Lawrence, Kansas with a history of non-profit and arts engagement. Her work explores the human connection to the natural world through her mediums of oil painting, ink, and videography. In addition to her artistic practice, she works as a fundraising and marketing professional. Having first joined OpenStudios’ second Lawrence location as an artist and volunteer, she now co-directs the organization, expanding access to creative space through fundraising, media engagement, and community partnerships.
 
 **Tyler Lindquist** — Collaborator, OpenStudios Lawrence
 
